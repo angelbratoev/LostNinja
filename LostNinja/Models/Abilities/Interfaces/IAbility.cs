@@ -8,8 +8,8 @@ namespace LostNinja.Models.Abilities.Interfaces
 {
     internal interface IAbility
     {
-        float power { get; }
-        float cost { get; }
+        float Power { get; }
+        float Cost { get; }
 
         string Description();
     }

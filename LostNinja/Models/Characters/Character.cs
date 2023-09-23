@@ -9,11 +9,20 @@ namespace LostNinja.Models.Characters
 {
     internal abstract class Character : ICharacter
     {
-        public float healthPoints => throw new NotImplementedException();
+        private float healthPoints;
+        private float actionPoints;
+        private float attackPower;
 
-        public float actionPoints => throw new NotImplementedException();
+        public Character()
+        {
+            
+        }
 
-        public float attackPower => throw new NotImplementedException();
+        public float HealthPoints => throw new NotImplementedException();
+
+        public float ActionPoints => throw new NotImplementedException();
+
+        public float AttackPower => throw new NotImplementedException();
 
         public void Atack(ICharacter target)
         {

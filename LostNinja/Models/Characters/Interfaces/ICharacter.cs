@@ -8,9 +8,9 @@ namespace LostNinja.Models.Characters.Interfaces
 {
     internal interface ICharacter
     {
-        float healthPoints { get; }
-        float actionPoints { get; }
-        float attackPower { get; }
+        float HealthPoints { get; }
+        float ActionPoints { get; }
+        float AttackPower { get; }
 
         void Atack(ICharacter target);
         void TakeDamage(float damage);
